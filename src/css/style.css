@@ -1,0 +1,71 @@
+#homeContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#regFormContainer {
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 5px #213555cc;
+          box-shadow: 0px 0px 5px #213555cc;
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-self: center;
+  padding: 3%;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+#registrationForm {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  border-radius: 25px;
+  border: 1px solid #213555;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #213555;
+  color: white;
+  width: 15%;
+  height: 12%;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px #213555cc;
+          box-shadow: 0px 0px 5px #213555cc;
+}
+/*# sourceMappingURL=style.css.map */
