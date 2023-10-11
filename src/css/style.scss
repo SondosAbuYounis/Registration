@@ -1,0 +1,59 @@
+$font :  Arial, Helvetica, sans-serif;
+$darkBtnBg : #213555;
+$navFooterBgColor: #213555cc;
+$lightColor: #21355597;
+$mainTextColor:#213555;
+$secondaryTextColor: #F0F0F0;
+$textWhite: white;
+$mainTextSize: 10%;
+$secondaryTextSize: 5%;
+$boldTextSize: 15px;
+$boldTextSizeResp: 10px;
+$placeholderTxtSize: 12px;
+$txtHoverColor: #B4B4B3;
+
+
+#homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#regFormContainer{
+    width: 50%;
+    font-family: $font;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px $navFooterBgColor;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 3%;
+}
+h5{
+    text-align: center;
+    font-weight: bolder;
+}
+#registrationForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: $font;
+}
+input{
+    border-radius: 25px;
+    border: 1px solid $mainTextColor;
+}
+input[placeholder]{
+    text-align: center;
+}
+input[type=submit]{
+    background-color: $darkBtnBg;
+    color: $textWhite;
+    width: 15%;
+    height: 12%;
+    border: none;
+    box-shadow: 0px 0px 5px $navFooterBgColor;
+}
